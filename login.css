@@ -1,0 +1,79 @@
+body{
+    background-image:url("water\ 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250vh;
+}
+
+h1{
+    font-size:xx-large;
+    font-family:'Times New Roman';
+    text-align:center;
+    color: rgb(146, 108, 108);
+}    
+
+p{
+    font-size: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-size: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: black;  
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10%;
+    background-color: wheat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=password]{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10%;
+    background-color: wheat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+button{
+    width: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10%;
+    background-color:grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link{
+    color: wheat;
+    background-color: transparent;
+    text-decoration: none;
+}
