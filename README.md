@@ -1,1 +1,1 @@
-### A simple login and sign-up page with flask
+### A simple login and sign-up app with flask
