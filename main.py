@@ -3,9 +3,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello World!"
+    return render_template("index.html")
 
-@app.route('/homepage')
+@app.route('/')
 def home():
     if not session.get('logged_in'):
         return render_template('login.html')
