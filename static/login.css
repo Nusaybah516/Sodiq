@@ -51,7 +51,7 @@ input[type=password]{
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    margin-top: 10%;
+    margin-top: 1%;
     background-color: wheat;
     display: block;
     margin-left: auto;
@@ -65,7 +65,7 @@ button{
     border-radius: 10px;
     box-sizing: border-box;
     resize: vertical;
-    margin-top: 10%;
+    margin-top: 1%;
     background-color:grey;
     display: block;
     margin-left: auto;
