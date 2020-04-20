@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="login.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../static/login.css">
-        <title>Login </title> 
-    </head>
-    <body >
-           <div class="login">
-            <i class="fa fa-universal-access"></i>
-       <h1>Login</h1>
-       <div class="group"><input type="text" placeholder="Email address"><i class="fa fa-user"></i></div>  
-       <div class="group"><input type="password" placeholder="Password"> <i class="fa fa-lock"></i></div>
-       <button> <i class="fa fa-send"></i>LOGIN</button>
-          <p> Forgot <a href="">password</a>?</p>
-          <p>Don't have an account? <a href="">Sign Up here</a></p>
-        </div>
-    </body>
+  <head>
+    <title>Flask Intro - login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please login</h1>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="Username" name="username" value="{{
+          request.form.username }}">
+         <input type="password" placeholder="Password" name="password" value="{{
+          request.form.password }}">
+        <input class="btn btn-default" type="submit" value="Login">
+      </form>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
 </html>
